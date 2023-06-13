@@ -3,11 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Engrow_web.Rough">
+      <class name="Engrow_web.opschecklist">
         <methods>
-          <include name="test"/>
+          <include name="launchbrowser"/>
+          <include name="moveto_opschecklist"/>
+          <include name="signin"/>
+          <include name="selectingchecklist"/>
         </methods>
-      </class> <!-- Engrow_web.Rough -->
+      </class> <!-- Engrow_web.opschecklist -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
