@@ -51,7 +51,7 @@ public class userC {
 	static List<String> dd = new ArrayList<String>();
 	static {
 		// role
-		dd.add("abc");
+		dd.add("aaa");
 		// branch_set
 		dd.add("ALL-ALL");
 		// branch_code
@@ -156,7 +156,7 @@ public class userC {
 			 * ((type.getText()).equalsIgnoreCase(dd.get(j - 1))) { type.click(); break; } }
 			 */ }
 
-		System.exit(0);
+//		System.exit(0);
 		// click on Active button
 		driver.findElement(By.name("activated")).click();
 
