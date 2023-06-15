@@ -26,34 +26,34 @@ public class userC {
 	 */
 	static {
 		// First_name
-		name.add("Anil");
+		name.add("samastha");
 		// Last_name
-		name.add("upload");
+		name.add("BM");
 		// User_name
-		name.add("system");
+		name.add("samasthabm");
 		// Email
-		name.add("system123@yopmail.com");
+		name.add("samasthabm@yopmail.com");
 		// Password
 		name.add("Admin@123");
 		// Departement
-		name.add("System");
+		name.add("RO");
 		// Designation
-		name.add("SYS");
+		name.add("RO");
 		// Address
-		name.add("Amet");
+		name.add("Bangalore");
 		// Pincode
 		name.add("488965");
 		// Contact Number
-		name.add("8564777856");
+		name.add("6564777856");
 		// Confirm Password
 		name.add("Admin@123");
 	}
 	static List<String> dd = new ArrayList<String>();
 	static {
 		// role
-		dd.add("aaa");
+		dd.add("Agent");
 		// branch_set
-		dd.add("ALL-ALL");
+		dd.add("HO-HO");
 		// branch_code
 		dd.add("HO-HO");
 		// state
@@ -61,7 +61,7 @@ public class userC {
 		// city
 		dd.add("Jalageri");
 		// user_type
-		dd.add("Agency");
+		dd.add("Employee");
 		// Agent
 		dd.add("Suneel");
 	}
