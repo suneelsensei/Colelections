@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class EOD {
-	static String url = "https://conatus-uat.senseitech.com/encore/login?logout";
+	static String url = "https://encore-demo.senseitech.com/encore/login#/login";
 	static String username = "admin123";
 	static String password = "Conatus@123";
 	//How many times want to run

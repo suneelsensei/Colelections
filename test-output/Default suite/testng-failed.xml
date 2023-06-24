@@ -3,14 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Engrow_web.opschecklist">
+      <class name="encore.TestngEODjob">
         <methods>
-          <include name="launchbrowser"/>
-          <include name="moveto_opschecklist"/>
-          <include name="signin"/>
-          <include name="selectingchecklist"/>
+          <include name="login"/>
+          <include name="setup"/>
+          <include name="runeod"/>
+          <include name="exit"/>
         </methods>
-      </class> <!-- Engrow_web.opschecklist -->
+      </class> <!-- encore.TestngEODjob -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

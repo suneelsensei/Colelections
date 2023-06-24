@@ -14,17 +14,17 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class userC {
 
-	static String url = "https://encorecollections-test.senseitech.com/#/signin";
-	static String username = "sharan";
+	String url = "https://encorecollections-test.senseitech.com/#/signin";
+	String username = "sharan";
 	// Enter User_name/First_name/Last_name/Email
-	static List<String> name = new ArrayList<String>();
+	List<String> name = new ArrayList<String>();
 
 	/*
 	 * static Map<String, String> keyVal = new HashMap<>(); static {
 	 * keyVal.put("firstName", "Nach"); keyVal.put("lastName", "Kulli");
 	 * keyVal.put("role", "Agent"); }
 	 */
-	static {
+	{
 		// First_name
 		name.add("samastha");
 		// Last_name
@@ -48,8 +48,8 @@ public class userC {
 		// Confirm Password
 		name.add("Admin@123");
 	}
-	static List<String> dd = new ArrayList<String>();
-	static {
+	List<String> dd = new ArrayList<String>();
+	{
 		// role
 		dd.add("Agent");
 		// branch_set
@@ -75,6 +75,11 @@ public class userC {
 	 */
 
 	public static void main(String[] args) throws Exception {
+		userC userc = new userC();
+		userc.testMethod();
+	}
+
+	private void testMethod() throws InterruptedException {
 		System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		// URL
