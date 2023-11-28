@@ -10,8 +10,8 @@ import org.testng.annotations.Test;
 
 public class Redmine_status_update {
 
-	String subject = "08-11-2023";
-	String comments = "1. Team meeting 2. Audit close from the backend 3. Center not showing";
+	String subject = "28-11-2023";
+	String comments = "1. Team meeting 2. Internal server error 3. Audit clarification 4. Backdated issue ";
 
 	@BeforeTest
 	public void lb() {

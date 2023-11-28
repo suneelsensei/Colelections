@@ -41,7 +41,7 @@ public class Redmine_edit_effort_update {
 		driver.findElement(By.xpath("//*[@title='Edit effort']")).click();
 
 		List<String> user = Arrays.asList(/* Anil */"15", /* Dharm */"16", /* Bhargavi */ "17", /* Pinky */"18",
-				/* Suneel */"19", /* Sharmila */ "28", /* Shijas "40",*/  /* Sima */"44");
+				/* Suneel */"19", /* Sharmila */ "28", /* Shijas "40",*/  /* Sima */"44", /*Darshan*/"32");
 		for (int j = 0; j < user.size(); j++) {
 
 			for (int i = 0; i < 12; i++) {
